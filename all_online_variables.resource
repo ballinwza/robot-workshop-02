@@ -4,7 +4,7 @@ Library    SeleniumLibrary
 *** Variables ***
 ${URL}    https://www.allonline.7eleven.co.th
 
-${USENAME}    JohnWick
+${USERNAME}    JohnWick
 ${PASSWORD}    IWillKillYouIfYouWantToKnowMyPassword
 
 ${SEARCH_KEYWORD}    ยำยำช้างน้อย รสบาร์บีคิว 120 กรัม

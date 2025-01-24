@@ -8,7 +8,7 @@ Resource    all_online_variables.resource
 
 เข้าสู่ระบบสมาชิก
     Click Element    locator=dom:document.querySelector('a.btn-allmember-login')
-    Input Text    locator=dom:document.querySelector('input[name="email"]')    text=${USENAME}
+    Input Text    locator=dom:document.querySelector('input[name="email"]')    text=${USERNAME}
     Input Text    locator=dom:document.querySelector('input[name="password"]')    text=${PASSWORD}
     Click Element    locator=//*[@id="__next"]/div/div/div[2]/div[2]/div/div/div/div[6]/a[1]
 
